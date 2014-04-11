@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+
+	<title>Image preview script</title>
+
+	<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="panel panel-primary">				
+			<div class="panel-heading"><h1> Jquery Image Previewer </h1>
+				<p> Simple jquery code snippet to preview of an image or picture to user, before upload </p></div>
+				<div id="ppal" class="panel-body">			
+					<div class="col-md-9">
+						<form role="form" enctype="multipart/form-data">
+							<div class="form-group">
+								<label for="exampleInputFile">Image Input</label>
+    								<input type="file" id="load_image">
+    								<p class="help-block">Select image to preview.</p>		
+							</div>
+							<div id="image">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+	</div>
+<script src="preview-image.js"></script>
+</body>
+
+</html>
